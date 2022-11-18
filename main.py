@@ -1,8 +1,10 @@
 import requests
 
+api_key = "key here"
+
 headers = {
     "Accept": "application/json",
-    "authorization": "Bearer API_KEY",
+    "authorization": f"Bearer {api_key}",
 }
 
 
